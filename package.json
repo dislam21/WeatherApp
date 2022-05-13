@@ -1,0 +1,45 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather app for the Odin Project to practice fetching data with APIs",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es2021": true
+    },
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "rules": {
+      "no-console": "off",
+      "quotes": [
+        "error",
+        "double"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dislam21/WeatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dislam21/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/dislam21/WeatherApp#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
