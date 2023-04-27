@@ -4,7 +4,7 @@
   }
   
   .header {
-    width: 100%;
+    width: 100vw;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -28,25 +28,53 @@
   
   .main-container {
     height: 100vh;
-    widht: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
   }
   
   .display-name {
-    height: 120px;
-    width: 100%;
-    font-size: 65px;
-    padding-top: 30px;
-    padding-left: 30px;
+    height: 60px;
+    width: 100vw;
+    font-size: 70px;
+    padding: 30px 0px 0px 30px;
+    margin-bottom: 20px;
   }
-  
-  .weather-container {
-    height: 100vh;
-    width: 100%;
+
+  .hourly-label {
+    height: 60px;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0px 0px 30px;
+    border-top: black solid 1px;
+  }
+
+  .time-container {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 10px;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  .time {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  
+  .weather-container {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 120px;
   }
   
   .weather-box {
@@ -54,4 +82,35 @@
     width: 200px;
     border: 1px solid black;
     border-radius: 3px;
+    box-shadow: 1.5px 2px 0px 0px;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .main-description {
+    height: 40px;
+    width: 100vw;
+    font-size: 40px;
+    padding: 10px 20px 0 30px;
+  }
+
+  .main-temp {
+    height: 40px;
+    width: 100vw;
+    font-size: 40px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 10px;
+  }
+
+  .main-feels-like {
+    height: 40px;
+    width: 100vw;
+    font-size: 28px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 10px;
+  }
+
+  .box-image {
+    height: auto;
+    width: 180px;
   }
